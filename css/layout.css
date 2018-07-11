@@ -1,0 +1,299 @@
+@font-face {
+	font-family: Nunito;
+	src: url(nunito.ttf);
+}
+@font-face {
+	font-family: Acme;
+	src: url(acme.ttf);
+}
+
+*{
+	font-family: Nunito;
+}
+
+body{
+	background: #2e2822;
+}
+
+.bom{
+	position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100vh;
+    /*-webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;*/
+    background-image: none;
+    background-size: auto;
+	overflow: hidden;
+    height: 480px;
+    color: white;
+}
+
+.home{
+	background-image: url("../img/food4.jpg");
+	/* background-color: grey; */
+	background-size: cover;
+  	background-position: 50% 50%;
+  	position: absolute;
+  	margin: auto;
+  	min-width: 100%;
+  	min-height: 100%;
+  	z-index: -100;
+}
+
+h1{
+	font-size: 23px;
+}
+
+h4{
+	color: #ccb7a5;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-family: Acme;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+h6{
+	font-size: 18px;
+	font-family: Nunito;
+	color: #bd7461;
+	border-bottom: 1px solid #bd7461;
+	line-height: 0.95;
+	text-shadow: black 0.05em 0.05em 0.2em;
+	padding-bottom: 5%;
+
+}
+
+.bg-dark{
+	background-color: black;
+}
+
+.font-p{
+	font-size: 12px;
+}
+
+.fundo{
+	background-image: url('../img/banbu.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.images{
+	width: 100%;
+	height: 85vh;
+	margin-top: 8vh;
+}
+
+.bg-1st{
+	background-color: black;
+	width: 70%;
+	height: 0;
+	border-bottom: 40vw solid #2e2822;
+	border-right: 150px solid transparent;
+}
+
+.food1{
+	position: absolute;
+	bottom: -5%;
+	left: -1%;
+	width: 40%;
+}
+
+.food2{
+	background-image: url('../img/exemple1-1.jpg');
+	background-size: cover;
+	background-position: 70% 50%;
+	position: absolute;
+	right: 0;
+	height: 100%;
+	width: 87.5%;
+	margin-top: 50px;
+}
+
+.presentation{
+	background: black;
+	height: 45vw;;
+	max-height: 600px;
+}
+
+.presentation-text{
+	margin-top: 150px;
+}
+
+.mt-6{
+	margin-top: 25%;
+}
+
+.text-pos{
+	position: absolute;
+	left: 38vw;
+	width: 20vw;
+}
+
+.font-tam {
+	font-size: 12px;
+}
+
+.font-white{
+	color:white;
+}
+
+.ftext-1st{
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.food-t1st{
+	position: absolute;
+	top: 10%;
+	left: 5%;
+}
+
+.blink{
+	transition: 1s;
+}
+
+.h2-size h2{
+	font-size: 12px;
+}
+
+.reserva-mob h2{
+	position: absolute;
+	top: 5vh;
+	right: 14vw;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+.space{
+	margin-top: 4vw;
+	text-transform: uppercase;
+	z-index: -1;
+}
+
+.container{
+	width: 92%;
+}
+
+.margem {
+	margin-bottom: 30vh;
+}
+
+.margem p{
+	font-size: 12px;
+}
+
+.margem a{
+	font-size: 12px;
+}
+
+.footer{
+	position: absolute;
+	bottom: 5%;
+}
+
+.footer h3{
+	font-size: 30px;
+}
+.footer p{
+	font-size: 12px;
+}
+
+.scroll-p{
+	position: absolute;
+	left: 50%;
+	bottom: 10%;
+}
+
+.menu-icon {
+	width: 20px;
+	height: 3px;
+	background: white;
+	margin: 6px 0;
+	border-radius: 15% 15%;
+	transition: 0.4s;
+}
+
+.menu-btn{
+	display: inline-block;
+	cursor: pointer;
+	z-index: 100;
+	position: absolute;
+	right: 5vw;
+	top: 5vw;
+}
+
+.change .bar1{
+	-webkit-transform: rotate(-45deg) translate(-9px, -2px);
+    transform: rotate(-45deg) translate(-9px, -2px);
+}
+
+.change .bar2{
+	-webkit-transform: rotate(45deg) translate(-8px, 2px);
+    transform: rotate(45deg) translate(-8px, 2px);
+}
+
+.point {
+	width: 25px;
+	height: 1px;
+	margin-right: 10px;
+	background-color: white;
+	margin-top: 5px;
+}
+
+.sideNav {
+	height: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0,0,0,0.95);
+	background-size: auto;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 0px;
+}
+
+.side-info{
+	top: 58vh;
+}
+
+.menulist h5{
+	text-decoration: none;
+	color: #ccb7a5;
+	font-weight: bold;
+}
+
+.menulist {
+	margin-left: 5vw;
+	list-style: none;
+	font-size: 24px;
+}
+
+.menulist i{
+	list-style: none;
+	font-size: 16px;
+	transition: 0.2s;
+}
+
+.mt-6{
+	margin-top: 15vh;
+}
+
+.scroll {
+	width: 1px;
+	height: 25px;
+	background-color: white;
+	transform: translateX(20px);
+}
+.scroll-text{
+	text-transform: uppercase;
+	font-size: 12px;
+}
